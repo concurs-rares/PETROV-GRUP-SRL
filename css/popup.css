@@ -1,0 +1,87 @@
+.margin-bottom-15 {
+	margin-bottom: 15px;
+}
+
+.wall-al{
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.678);
+  z-index: 999;
+  display: none;
+}
+.wall-al.activ{
+  display: block;
+}
+
+.popup-exp{
+  position: absolute;
+  width: 300px;
+  background-color: #fff;
+  margin: 0 auto;
+  z-index: 99999;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: fit-content;
+  margin-top: 100px;
+  border-radius: 5px;
+  padding: 5px;
+  color: #333;
+}
+
+.close-pp{
+  position: absolute;
+  top: 5px;
+  right: 5px; 
+  transform: rotate(45deg); 
+  font-weight: 700;
+  font-size: 30px;
+  cursor: pointer;
+  transition: 0.5s all;
+}
+
+.close-pp:hover{
+  color: red;
+}
+
+input[type=nume], select{
+  width: 100%;
+  padding: 12px 10px;
+  
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=telefon]{
+  width: 100%;
+  padding: 12px 15px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+input[type=propuneri], select, textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 3px;
+  margin-bottom: 3px;
+  resize: vertical;
+}
