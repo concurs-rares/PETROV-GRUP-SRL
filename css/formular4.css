@@ -87,7 +87,7 @@ input[type=email], select {
   input[type=Mesaj], select, textarea{
     width: 100%;
     padding: 12px 20px;
-    margin: 5px 0;
+    margin: 4px 0;
     display: inline-block;
     border: 1px solid #ccc;
     border-radius: 4px;
